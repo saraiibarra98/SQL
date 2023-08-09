@@ -1,0 +1,20 @@
+CREATE TABLE shoes(ID INTEGER primary key,size TEXT, brand TEXT,aisle INTEGER,price INTEGER);
+
+INSERT into shoes VALUES(1,"JORDAN1","NIKE",2,85);
+INSERT into shoes VALUES(2,"Air","NIKE",22,85);
+INSERT into shoes VALUES(3,"huraches","NIKE",23,75);
+INSERT into shoes VALUES(4,"Sport","NIKE",12,55);
+INSERT into shoes VALUES(5,"JORDAN1","NIKE",26,85);
+INSERT into shoes VALUES(6,"nikecleats","NIKE",42,65);
+INSERT into shoes VALUES(7,"JORDAN","NIKE",2,100);
+INSERT into shoes VALUES(8,"runningj","NIKE",132,85);
+INSERT into shoes VALUES(9,"OG1","NIKE",62,85);
+INSERT into shoes VALUES(10,"DUCKS","NIKE",13,115);
+INSERT into shoes VALUES(11,"BLazer","NIKE" ,44,85);
+INSERT into shoes VALUES(12,"AIRMAX","NIKE",24,95);
+INSERT into shoes VALUES(13,"JORDANCOURT","NIKE",25,85);
+INSERT into shoes VALUES(14,"GEMMA","NIKE",23,85);
+INSERT into shoes VALUES(15,"WALLFLE","NIKE",25,85);
+
+SELECT * from shoes order by AISLE;
+SELECT sum(price) from shoes;
